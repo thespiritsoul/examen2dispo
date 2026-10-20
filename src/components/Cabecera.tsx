@@ -18,7 +18,7 @@ export default function Cabecera() {
 const styles = StyleSheet.create({
   conte: {
     padding: 15,
-    paddingTop: 120,
+    paddingTop: 50,
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
