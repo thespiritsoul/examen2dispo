@@ -37,6 +37,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8b49f31b-8f0f-4ee0-984e-cce082bb665f"
+      }
+    },
+    "owner": "ademarsantoss-team"
   }
 }
