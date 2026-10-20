@@ -1,19 +1,20 @@
+import Boton from "@/components/Boton";
 import Cabecera from "@/components/Cabecera";
 import Contenido from "@/components/Contenido";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <View>
+    <View style={styles.contenido}>
       <Cabecera></Cabecera>
       <Contenido></Contenido>
-      <Text style={styles.saludo}>hola</Text>
+      <Boton></Boton>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  saludo: {
-    color: "white",
+  contenido: {
+    backgroundColor: "#070707",
   },
 });
